@@ -10,13 +10,14 @@ body {
 
 .h4 {
   margin-top: 50px;
-  text-align: center;
 }
 
 .h2 {
   text-align: center;
-  margin: 50px;
-  color: #212529;
+}
+
+.progress {
+  margin-right: 3rem;
 }
 
 .menuDesplegable {
@@ -110,6 +111,11 @@ footer {
   color: darkviolet;
 }
 
+.card {
+  padding: 5px;
+  margin-top: 15px;
+}
+
 .h4 {
   color: #212529;
 }
@@ -174,6 +180,10 @@ footer {
   .text-muted {
     font-size: 12px;
   }
+
+  .largoDeLinea {
+    width: 45%;
+  }
 }
 @media (min-width: 481px) and (max-width: 1023px) {
   .sponsorPhono {
@@ -206,6 +216,10 @@ footer {
   .tamañoCartas {
     width: 100%;
   }
+
+  .largoDeLinea {
+    width: 35%;
+  }
 }
 @media (min-width: 1024px) {
   .imgSponsor {
@@ -234,6 +248,10 @@ footer {
 
   .imgProductos {
     width: 100%;
+  }
+
+  .largoDeLinea {
+    width: 25%;
   }
 }
 

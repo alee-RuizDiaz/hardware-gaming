@@ -42,7 +42,9 @@
         font-size: 12px;
     }
 
-    
+    .largoDeLinea {
+        width: 45%;
+    }
 
 }
 
@@ -81,6 +83,9 @@
         width: 100%;
     }
 
+    .largoDeLinea {
+        width: 35%;
+    }
 }
 
 // DESKTOP 
@@ -112,5 +117,9 @@
 
     .imgProductos {
         width: 100%;
+    }
+
+    .largoDeLinea {
+        width: 25%;
     }
 }
