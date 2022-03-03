@@ -1,0 +1,15 @@
+.boton {
+    border: $colorPrincipal;
+    &:hover {
+        background-color: $colorSecundario;
+    }
+}
+
+.botonCartas {
+    color: white;
+    background-color: $colorPrincipal;
+    border: none;
+    &:hover {
+        background-color: $colorSecundario;
+    }
+}

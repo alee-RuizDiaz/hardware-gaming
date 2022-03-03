@@ -1,0 +1,116 @@
+
+// SMARTPHONE
+
+@media (max-width:480px) {
+
+    .w-100 {
+        width: 150%!important;
+    }
+
+    .sponsorPhono {
+        width: 25%;
+    }
+
+    .imgSponsor {
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        opacity: 0.8;
+    }
+
+    .imgProductos {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .listaInfo {
+        margin: 5px;
+    }
+
+    .productosTamaño {
+        width: 75%;
+        margin-bottom: 5px;
+    }
+
+    .tamañoCartas {
+        width: 90%;
+    }
+
+    .text-muted {
+        font-size: 12px;
+    }
+
+    
+
+}
+
+
+// TABLET
+
+@media (min-width: 481px) and (max-width:1023px) {
+    .sponsorPhono {
+        width: 25%;
+    }
+
+    .imgSponsor {
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        opacity: 0.8;
+    }
+
+    .tamañoCarts {
+        width: 70%;
+    }
+
+    .productosTamaño {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+
+    .imgProductos {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .tamañoCartas {
+        width: 100%;
+    }
+
+}
+
+// DESKTOP 
+
+@media (min-width:1024px) {
+    .imgSponsor {
+        display: flex;
+        width: 50%;
+    }
+
+    .sponsors {
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .busqueda {
+        margin-right: 25px;
+    }
+
+    .tamañoCarts {
+        width: 70%;
+    }
+
+    .productosTamaño {
+        width: 15%;
+    }
+
+    .imgProductos {
+        width: 100%;
+    }
+}

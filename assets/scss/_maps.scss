@@ -1,0 +1,26 @@
+$redes: (
+    instagram: rgb(241, 16, 103),
+    twitter: rgb(12, 117, 158),
+    whatsapp: rgb(12, 161, 37),
+);
+
+.botonInstagram {
+    color: $colorMenu;
+    &:hover {
+        color: map-get($map: $redes, $key: instagram);
+    }
+}
+
+.botonTwitter {
+    color: $colorMenu;
+    &:hover {
+        color: map-get($map: $redes, $key: twitter);
+    }  
+}
+
+.botonWhatsapp {
+    color: $colorMenu;
+    &:hover {
+        color: map-get($map: $redes, $key: whatsapp);
+    }
+}

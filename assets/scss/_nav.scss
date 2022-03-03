@@ -1,0 +1,12 @@
+.menuDesplegable {
+    background-color: $colorPrincipal;
+    padding: 15px;
+}
+
+.colorMenu {
+    color: $colorMenu;
+    &:hover {
+        background-color: $colorSecundario;
+        color: $colorMenu;
+    }
+}

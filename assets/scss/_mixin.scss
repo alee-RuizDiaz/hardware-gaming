@@ -1,0 +1,7 @@
+@mixin  colorTitulo($color) {
+    color: $color;
+}
+
+.h4 {
+    @include colorTitulo($colorPrincipal)
+}

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+body {
+  height: 100vh;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.h4 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+  margin: 50px;
+  color: #212529;
+}
+
+.menuDesplegable {
+  background-color: #212529;
+  padding: 15px;
+}
+
+.colorMenu {
+  color: white;
+}
+.colorMenu:hover {
+  background-color: darkviolet;
+  color: white;
+}
+
+.sponsorsFlex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  background-color: #212529;
+}
+
+.cartasFlex {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.productosFlex {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.boton {
+  border: #212529;
+}
+.boton:hover {
+  background-color: darkviolet;
+}
+
+.botonCartas {
+  color: white;
+  background-color: #212529;
+  border: none;
+}
+.botonCartas:hover {
+  background-color: darkviolet;
+}
+
+.accordion-item {
+  background-color: #212529;
+  color: white;
+  margin: 10px;
+}
+
+.accordion-button {
+  background-color: darkviolet;
+  color: white;
+  border: 2px solid #212529;
+  font-size: 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: darkviolet;
+  color: white;
+}
+.accordion-button:focus {
+  border-color: #212529;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.cartasFlex {
+  display: flex;
+}
+
+.cartasOferta1 {
+  text-decoration: line-through;
+  font-size: 25px;
+}
+
+.cartasOferta2 {
+  font-size: 22px;
+  color: darkviolet;
+}
+
+.h4 {
+  color: #212529;
+}
+
+.botonInstagram {
+  color: white;
+}
+.botonInstagram:hover {
+  color: #f11067;
+}
+
+.botonTwitter {
+  color: white;
+}
+.botonTwitter:hover {
+  color: #0c759e;
+}
+
+.botonWhatsapp {
+  color: white;
+}
+.botonWhatsapp:hover {
+  color: #0ca125;
+}
+
+@media (max-width: 480px) {
+  .w-100 {
+    width: 150% !important;
+  }
+
+  .sponsorPhono {
+    width: 25%;
+  }
+
+  .imgSponsor {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.8;
+  }
+
+  .imgProductos {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .listaInfo {
+    margin: 5px;
+  }
+
+  .productosTamaño {
+    width: 75%;
+    margin-bottom: 5px;
+  }
+
+  .tamañoCartas {
+    width: 90%;
+  }
+
+  .text-muted {
+    font-size: 12px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+  .sponsorPhono {
+    width: 25%;
+  }
+
+  .imgSponsor {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.8;
+  }
+
+  .tamañoCarts {
+    width: 70%;
+  }
+
+  .productosTamaño {
+    width: 35%;
+    margin-bottom: 5px;
+  }
+
+  .imgProductos {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .tamañoCartas {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .imgSponsor {
+    display: flex;
+    width: 50%;
+  }
+
+  .sponsors {
+    opacity: 0.5;
+  }
+  .sponsors:hover {
+    opacity: 1;
+  }
+
+  .busqueda {
+    margin-right: 25px;
+  }
+
+  .tamañoCarts {
+    width: 70%;
+  }
+
+  .productosTamaño {
+    width: 15%;
+  }
+
+  .imgProductos {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=destino.css.map */

@@ -1,0 +1,25 @@
+
+.accordion-item {
+    background-color: $colorPrincipal;
+    color: white;
+    margin: 10px;
+
+}
+
+.accordion-button {
+    background-color: $colorSecundario;
+    color: white;
+    border: 2px  solid $colorPrincipal;
+    font-size: 20px;
+    &:not( .collapsed) {
+        background-color: $colorSecundario;
+        color: white;
+    }
+    &:focus {
+        border-color: $colorPrincipal;
+        box-shadow: none;
+    }
+    &:not( .collapsed)::after {
+        background-image: none;
+    }
+}
