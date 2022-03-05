@@ -9,7 +9,6 @@
 .accordion-button {
     background-color: $colorSecundario;
     color: white;
-    border: 2px  solid $colorPrincipal;
     font-size: 20px;
     &:not( .collapsed) {
         background-color: $colorSecundario;
