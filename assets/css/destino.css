@@ -83,6 +83,7 @@ footer {
   background-color: darkviolet;
   color: white;
   font-size: 20px;
+  border: 1px solid #212529;
 }
 .accordion-button:not(.collapsed) {
   background-color: darkviolet;
@@ -114,6 +115,7 @@ footer {
   padding: 5px;
   margin-top: 15px;
   border-radius: 15px;
+  box-shadow: 3px 3px 10px #212529;
 }
 
 .h4 {
@@ -124,7 +126,7 @@ footer {
   color: white;
 }
 .botonInstagram:hover {
-  color: #f11067;
+  color: #bb149f;
 }
 
 .botonTwitter {
@@ -252,6 +254,14 @@ footer {
 
   .largoDeLinea {
     width: 25%;
+  }
+
+  .card {
+    transition: all 500ms ease;
+  }
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 3px 8px darkviolet;
   }
 }
 

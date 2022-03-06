@@ -10,6 +10,7 @@
     background-color: $colorSecundario;
     color: white;
     font-size: 20px;
+    border: 1px solid $colorPrincipal;
     &:not( .collapsed) {
         background-color: $colorSecundario;
         color: white;

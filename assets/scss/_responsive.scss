@@ -123,4 +123,12 @@
     .largoDeLinea {
         width: 25%;
     }
+
+    .card {
+       transition: all 500ms ease;
+       &:hover {
+           transform: scale(1.03);
+           box-shadow: 3px 3px 8px $colorSecundario;
+       } 
+    }
 }
