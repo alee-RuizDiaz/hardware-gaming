@@ -57,6 +57,15 @@ footer {
   justify-content: space-evenly;
 }
 
+.formularioFlex {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.comentarios {
+  width: 100%;
+}
+
 .boton {
   border: #212529;
 }
