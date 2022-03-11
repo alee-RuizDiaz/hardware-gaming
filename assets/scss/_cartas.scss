@@ -13,9 +13,20 @@
     color: $colorSecundario;
 }
 
+.cartasPcArmadas {
+    font-size: 22px;
+    color: $colorSecundario;
+    text-align: center;
+}
+
 .card {
     padding: 5px;
     margin-top: 15px;
     border-radius:  15px;
     box-shadow:  3px 3px 10px $colorPrincipal;
+}
+
+.card-title {
+    text-align: center;
+
 }

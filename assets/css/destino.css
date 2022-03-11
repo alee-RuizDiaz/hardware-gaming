@@ -120,11 +120,21 @@ footer {
   color: darkviolet;
 }
 
+.cartasPcArmadas {
+  font-size: 22px;
+  color: darkviolet;
+  text-align: center;
+}
+
 .card {
   padding: 5px;
   margin-top: 15px;
   border-radius: 15px;
   box-shadow: 3px 3px 10px #212529;
+}
+
+.card-title {
+  text-align: center;
 }
 
 .h4 {
